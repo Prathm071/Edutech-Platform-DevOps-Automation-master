@@ -1,6 +1,6 @@
 resource "aws_instance" "master" {
-    ami = "ami-0d8b31a89ddaf2cd7"
-    instance_type = "t2.medium"
+    ami = "ami-0e0e4764b0d687d70"
+    instance_type = "c7i-flex.large"
     key_name = aws_key_pair.key.key_name
     subnet_id = var.private_sub_1
     vpc_security_group_ids = [var.k8s_master_sg]
@@ -14,8 +14,8 @@ resource "aws_instance" "master" {
 }
 
 resource "aws_instance" "worker" {
-    ami = "ami-0d8b31a89ddaf2cd7"
-    instance_type = "t2.medium"
+    ami = "ami-0e0e4764b0d687d70"
+    instance_type = "c7i-flex.large"
     key_name = aws_key_pair.key.key_name
     subnet_id = var.private_sub_2
     vpc_security_group_ids = [var.k8s_worker_sg]

@@ -5,7 +5,7 @@ pipeline {
 
     environment {
         NAMESPACE = 'coding-cloud'
-        DOCKER_USERNAME = 'sakshidocker2002'
+        DOCKER_USERNAME = 'prathmesh0654'
     }
 
     parameters {

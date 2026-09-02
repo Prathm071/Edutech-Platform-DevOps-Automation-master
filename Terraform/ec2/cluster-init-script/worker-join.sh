@@ -18,7 +18,7 @@ check_status() {
 }
 
 while true; do
-   aws s3 cp s3://coding-cloud-bucket-123/cluster-join-command.sh /tmp/cluster-join-command.sh && break
+   aws s3 cp s3://coding-cloud-bucket-3108/cluster-join-command.sh /tmp/cluster-join-command.sh && break
    sleep 10
 done
 
@@ -27,7 +27,7 @@ chmod +x /tmp/cluster-join-command.sh
 check_status "Setting Permissions"
 
 log "Running Join Command"
-bash /tmp/cluster-join-command.sh
+sudo bash /tmp/cluster-join-command.sh
 check_status "Running Join Command"
 
 exit 0
