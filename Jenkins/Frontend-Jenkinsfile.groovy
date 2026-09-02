@@ -11,7 +11,7 @@ pipeline {
     }
 
     parameters {
-        string(name: 'DOCKER_USERNAME', defaultValue: 'sakshidocker2002')
+        string(name: 'DOCKER_USERNAME', defaultValue: 'prathmesh0654')
         string(name: 'GIT_BRANCH', defaultValue: 'master')
     }
 
@@ -20,7 +20,7 @@ pipeline {
             steps {
                 echo "Checking Out Frontend Code"
                 git branch: "${params.GIT_BRANCH}",
-                  url: 'https://github.com/sakshishah1710/Edutech-Platform-DevOps-Automation-master.git'
+                  url: 'https://github.com/Prathm071/Edutech-Platform-DevOps-Automation-master.git'
                 echo "Checkout Completed"   
             }
         }
