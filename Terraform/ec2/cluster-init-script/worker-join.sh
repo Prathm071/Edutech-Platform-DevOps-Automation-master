@@ -27,7 +27,7 @@ chmod +x /tmp/cluster-join-command.sh
 check_status "Setting Permissions"
 
 log "Running Join Command"
-sudo bash /tmp/cluster-join-command.sh
+bash /tmp/cluster-join-command.sh
 check_status "Running Join Command"
 
 exit 0

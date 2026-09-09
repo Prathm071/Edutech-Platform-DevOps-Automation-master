@@ -12,7 +12,7 @@ pipeline {
 
     parameters {
         string(name: 'DOCKER_USERNAME', defaultValue: 'prathmesh0654')
-        string(name: 'GIT_BRANCH', defaultValue: 'master')
+        string(name: 'GIT_BRANCH', defaultValue: 'main')
     }
 
     stages {
