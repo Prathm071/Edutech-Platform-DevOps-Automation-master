@@ -29,7 +29,7 @@ const Index = () => {
       ]
     },
     {
-      title: "Data Science & Analytics",
+      title: "DS",
       description: "Transform data into actionable insights",
       icon: ChartBar,
       slug: "data-science",
