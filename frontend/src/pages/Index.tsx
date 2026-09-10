@@ -17,7 +17,7 @@ const Index = () => {
       ]
     },
     {
-      title: "MERN Stack",
+      title: "MERN",
       description: "Build full-stack web applications with modern JavaScript",
       icon: Code,
       slug: "mern",
