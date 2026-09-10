@@ -57,7 +57,7 @@ const courseData: Record<string, CourseData> = {
     title: "MERN Stack",
     description: "Build modern full-stack web applications using MongoDB, Express, React, and Node.js",
     duration: "4 Months (16 weeks)",
-    trainer: "Shraddha Patil",
+    trainer: "Shraddha",
     targetAudience: [
       "Aspiring full-stack developers",
       "Frontend developers wanting backend skills",
